@@ -6,8 +6,10 @@ Step 1:
 
 python3 generate_prosody.py --wav_dir [wav_dir_file]
 
---wav_dir is mandatory
+--wav_dir is mandatory with absolute path and no slash at the end
 
 Step 2:
 
-python3 csv2txt_format.py [Run the script by pasting where the prosody features are generated to convert them to txt]
+python3 csv2txt_format.py --csv_dir [csv_dir_file]
+
+--csv_dir is mandatory with absolute path and no slash at the end
